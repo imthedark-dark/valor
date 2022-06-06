@@ -3,11 +3,11 @@ import chalk from 'chalk'
 import { fileURLToPath } from 'url'
 
 global.owner = [
-  ['919971107409', 'Valor_Bot', true]
+  ['989054502743', '𝑫𝒂𝒓𝒌 𝐵𝑜𝑡', true]
   // [number, dia creator/owner?, dia developer?]
 ] // Put your number here
-global.mods = ['919971107409'] // Want some help?
-global.prems = ['919971107409'] // Premium user has unlimited limit
+global.mods = ['989054502743'] // Want some help?
+global.prems = ['989054502743'] // Premium user has unlimited limit
 global.APIs = { // API Prefix
   // name: 'https://website'
   nrtm: 'https://nurutomo.herokuapp.com',
@@ -20,7 +20,7 @@ global.APIs = { // API Prefix
 }
 global.APIKeys = { // APIKey Here
   // 'https://website': 'apikey'
-  'https://api.xteam.xyz': '493053acc612476f',
+  'https://example.p.rapidapi.com/?rapidapi-key':'3a28859f77mshf67d323010090e9p1e52f7jsn1df6b6675a4e'
   'https://zahirr-web.herokuapp.com': 'zahirgans',
   'https://api.zeks.xyz': 'apivinz',
   'https://pencarikode.xyz': 'pais',
@@ -28,8 +28,9 @@ global.APIKeys = { // APIKey Here
 }
 
 // Sticker WM
-global.packname = 'Valor Bot'
-global.author = 'Dinesh_Valor🇮🇳'
+global.packname = 'Dark Bot'
+global.author = '𝙸'𝚖 𝙽𝚘𝚝 𝚊 𝚔𝚒𝚗𝚐 𝙸'𝚖 𝚗𝚘𝚝 𝚊 𝚐𝚘𝚍
+ 𝙸'𝚖 𝚃𝚑𝚎 𝐅𝐮𝐜𝐤𝐢𝐧𝐠 𝑴𝒐𝒐𝒅🖤'
 
 global.multiplier = 69 // The higher, The harder levelup
 
@@ -37,32 +38,32 @@ global.rpg = {
   emoticon(string) {
     string = string.toLowerCase()
     let emot = {
-      level: '🎖️',
-      limit: '🎳',
-      health: '❤️',
-      exp: '✉️',
-      money: '💰',
-      potion: '🥤',
-      diamond: '💎',
-      common: '📦',
-      uncommon: '🎁',
-      mythic: '🗳️',
-      legendary: '🗃️',
-      pet: '🎁',
-      trash: '🗑',
-      armor: '🥼',
-      sword: '⚔️',
-      wood: '🪵',
-      rock: '🪨',
-      string: '🕸️',
-      horse: '🐎',
-      cat: '🐈',
-      dog: '🐕',
-      fox: '🦊',
-      petFood: '🍖',
-      iron: '⛓️',
-      gold: '👑',
-      emerald: '💚'
+      level: '🖤',
+      limit: '🖤',
+      health: '🖤',
+      exp: '🖤',
+      money: '🖤',
+      potion: '🖤',
+      diamond: '🖤',
+      common: '🖤',
+      uncommon: '🖤',
+      mythic: '🖤',
+      legendary: '🖤',
+      pet: '🖤',
+      trash: '🖤',
+      armor: '🖤',
+      sword: '🖤',
+      wood: '🖤',
+      rock: '🖤',
+      string: '🖤',
+      horse: '🖤',
+      cat: '🖤',
+      dog: '🖤',
+      fox: '🖤',
+      petFood: '🖤',
+      iron: '🖤',
+      gold: '🖤',
+      emerald: '🖤'
     }
     let results = Object.keys(emot).map(v => [v, new RegExp(v, 'gi')]).filter(v => v[1].test(string))
     if (!results.length) return ''
